@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Import And Export</title>
+
+    <script type="module" src="app.js"></script>
+
+    </head>
+<body>
+    
+    <div style="text-align: center">
+        <h2
+          style="
+            background-color: blueviolet;
+            color: white;
+            text-transform: uppercase;
+          "
+        >
+        Import Export Concept
+        </h2>
+      </div>
+
+
+      <script>
+
+       //babel 
+       function abc()
+       {
+        if(true)
+        {
+            let a=10;
+            console.log(a);
+
+            //babel convert let to var, and change variable name to _a to not give value outside block
+        }
+        console.log(a);
+       }
+
+       // abc();  //When browser does not support modern JS then give  = a is not defined
+
+      </script>
+
+    </body>
+</html>
